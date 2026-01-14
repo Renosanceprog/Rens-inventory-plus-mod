@@ -1,0 +1,12 @@
+item.bridge:menu_access=§6§lInventory+ Access
+item.bridge:circuit_redstone=§9§lGive Circuit Redstone
+item.bridge:component_redstone=§5§lGive Component Redstone
+item.bridge:farm_redstone=§e§lGive Farm Redstone
+item.bridge:filler_inventory=§d§lGive Filler inventory
+item.bridge:empty_inventory=§c§lEmpty inventory
+item.bridge:filler_64=§r§1§l64 Stack Filler
+item.bridge:filler_16=§r§2§l16 Stack Filler
+item.bridge:filler_1=§r§3§lNon-Stackable Filler
+item.bridge:filler_tnt=§r§4§lTNT Filler
+item.bridge:next_page=§lGo to extra items
+item.bridge:back_page=§lGo back to main kit

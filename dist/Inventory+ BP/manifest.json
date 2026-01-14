@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Renosance"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Inventory+",
+		"description": "Inventory+ the lightweight inventory manager & debug/toolkit",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "e33c6843-2e35-4b4a-b1a8-08bd0678d687",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "64a799fc-8e41-4f70-b397-ba6090e7cb22",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

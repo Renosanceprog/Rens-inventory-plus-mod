@@ -1,0 +1,42 @@
+{
+	"resource_pack_name": "Inventory+",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bridge_menu_access": {
+			"textures": "textures/items/menu_access"
+		},
+		"bridge_circuit_redstone": {
+			"textures": "textures/items/circuit_redstone"
+		},
+		"bridge_component_redstone": {
+			"textures": "textures/items/component_redstone"
+		},
+		"bridge_farm_redstone": {
+			"textures": "textures/items/farm_redstone"
+		},
+		"bridge_filler_inventory": {
+			"textures": "textures/items/filler_inventory"
+		},
+		"bridge_empty_inventory": {
+			"textures": "textures/items/empty_inventory"
+		},
+		"bridge_filler_64": {
+			"textures": "textures/items/filler_64"
+		},
+		"bridge_filler_16": {
+			"textures": "textures/items/filler_16"
+		},
+		"bridge_filler_1": {
+			"textures": "textures/items/filler_1"
+		},
+		"bridge_filler_tnt": {
+			"textures": "textures/items/filler_tnt"
+		},
+		"bridge_next_page": {
+			"textures": "textures/items/next_page"
+		},
+		"bridge_back_page": {
+			"textures": "textures/items/back_page"
+		}
+	}
+}
