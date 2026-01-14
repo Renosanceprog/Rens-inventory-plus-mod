@@ -1,5 +1,5 @@
 tag @p add usingsys
-tag @p add using:component_kit
+tag @p add using_component_kit
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 dropper
 replaceitem entity @p[tag=usingsys] slot.inventory 1 lever

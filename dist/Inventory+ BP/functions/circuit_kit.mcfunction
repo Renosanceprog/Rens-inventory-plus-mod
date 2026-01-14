@@ -1,5 +1,5 @@
 tag @p add usingsys
-tag @p add using:circuit_kit
+tag @p add using_circuit_kit
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 white_concrete
 replaceitem entity @p[tag=usingsys] slot.inventory 1 gray_concrete

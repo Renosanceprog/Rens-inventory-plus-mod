@@ -1,5 +1,5 @@
 tag @p add usingsys
-tag @p add using:farm_kit
+tag @p add using_farm_kit
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 lever
 replaceitem entity @p[tag=usingsys] slot.inventory 1 crafter

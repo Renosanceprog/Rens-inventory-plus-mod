@@ -1,3 +1,3 @@
-tag @p remove using:circuit_kit
-tag @p remove using:component_kit
-tag @p remove using:farm_kit
+tag @p remove using_circuit_kit
+tag @p remove using_component_kit
+tag @p remove using_farm_kit
