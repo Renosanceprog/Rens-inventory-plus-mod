@@ -1,5 +1,9 @@
 tag @p add usingsys
 tag @p add using_circuit_kit
+
+playsound bundle.drop_contents @p ~~~ 0.5 1
+playsound random.lever_click @p ~~~ 0.1 0.7
+
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 white_concrete
 replaceitem entity @p[tag=usingsys] slot.inventory 1 gray_concrete

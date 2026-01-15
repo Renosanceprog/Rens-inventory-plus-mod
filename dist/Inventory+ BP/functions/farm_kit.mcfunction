@@ -1,5 +1,9 @@
 tag @p add usingsys
 tag @p add using_farm_kit
+
+playsound bundle.drop_contents @p ~~~ 0.5 1
+playsound bucket.fill_water @p ~~~ 0.1 1.2
+
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 lever
 replaceitem entity @p[tag=usingsys] slot.inventory 1 crafter

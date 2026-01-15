@@ -1,3 +1,5 @@
+playsound item.book.page_turn @p ~~~ 0.1 1
+
 replaceitem entity @p[tag=using_circuit_kit] slot.inventory 0 chest
 replaceitem entity @p[tag=using_circuit_kit] slot.inventory 1 redstone_lamp
 replaceitem entity @p[tag=using_circuit_kit] slot.inventory 2 crafter

@@ -1,5 +1,9 @@
 tag @p add usingsys
 tag @p add using_component_kit
+
+playsound bundle.drop_contents @p ~~~ 0.5 1
+playsound tile.piston.in @p ~~~ 0.1 0.7
+
 clear @p
 replaceitem entity @p[tag=usingsys] slot.inventory 0 dropper
 replaceitem entity @p[tag=usingsys] slot.inventory 1 lever

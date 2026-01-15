@@ -1,3 +1,5 @@
+playsound item.book.page_turn @p ~~~ 0.1 1
+
 replaceitem entity @p[tag=using_farm_kit, tag=farm_kit_page1] slot.inventory 0 birch_pressure_plate
 replaceitem entity @p[tag=using_farm_kit, tag=farm_kit_page1] slot.inventory 1 stone_pressure_plate
 replaceitem entity @p[tag=using_farm_kit, tag=farm_kit_page1] slot.inventory 2 tripwire_hook

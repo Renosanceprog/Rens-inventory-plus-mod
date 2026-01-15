@@ -1,4 +1,7 @@
 tag @p add usingsys
+
+playsound bundle.drop_contents @p ~~~ 0.5 1
+
 clear @p
 function kit_usingremove
 replaceitem entity @p[tag=usingsys] slot.inventory 23 bridge:filler_64

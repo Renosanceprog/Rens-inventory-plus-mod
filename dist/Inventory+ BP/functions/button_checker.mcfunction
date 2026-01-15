@@ -10,3 +10,12 @@ execute as @e[type=item, name="§r§3§lNon-Stackable Filler"] at @p run functio
 execute as @e[type=item, name="§r§4§lTNT Filler"] at @p run function filler_tntkit
 execute as @e[type=item, name="§lGo to extra items"] at @p run function brick_next
 execute as @e[type=item, name="§lGo back to main kit"] at @p run function brick_back
+
+# --- SAVE/LOAD SYSTEM ---
+# 1. Detect "Save Kit" item -> Force nearest player to send the signal -> Kill item
+execute as @e[type=item,name="bread"] at @s run execute as @p run scriptevent invplus:save_trigger
+execute as @e[type=item,name="bread"] run kill @s
+
+# 2. Detect "Load Kit" item -> Force nearest player to send the signal -> Kill item
+execute as @e[type=item,name="beetroot"] at @s run execute as @p run scriptevent invplus:load_trigger
+execute as @e[type=item,name="beetroot"] run kill @s

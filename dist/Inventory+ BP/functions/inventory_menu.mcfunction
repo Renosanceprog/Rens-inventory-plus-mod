@@ -1,6 +1,9 @@
 tag @p add usingsys
 clear @p
 function kit_usingremove
+
+playsound ui.drawer_open @p ~~~ 0.3 0.7
+
 replaceitem entity @p[tag=usingsys] slot.inventory 22 bridge:circuit_redstone
 replaceitem entity @p[tag=usingsys] slot.inventory 23 bridge:component_redstone
 replaceitem entity @p[tag=usingsys] slot.inventory 24 bridge:farm_redstone
