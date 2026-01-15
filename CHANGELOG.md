@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.0.0] - 2026-01-16
 ### Released
-**The "Gold" Release.** Fully functional inventory persistence system ready for survival gameplay.
+**The "Gold" Release.** Fully functional inventory persistence system ready for Redstone build, Debugging and more.
 
 ### Added
 - **Script API Integration:** Implemented `@minecraft/server` (v1.13.0) for robust inventory manipulation.
@@ -30,7 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [0.2.0] - 2025-12-XX
+## [0.2.0] - 2025-10-01
 ### Alpha
 **The "Addon" Conversion.** Migrated the project from a world save to a Behavior Pack format.
 
@@ -45,7 +45,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [0.1.0] - 2025-10-XX
+## [0.1.0] - 2025-4-04
 ### Prototype
 **Proof of Concept.** Initial implementation using in-game Command Blocks.
 
