@@ -10,3 +10,5 @@ item.bridge:filler_1=§r§3§lNon-Stackable Filler
 item.bridge:filler_tnt=§r§4§lTNT Filler
 item.bridge:next_page=§lGo to extra items
 item.bridge:back_page=§lGo back to main kit
+item.bridge:save_inventory=§l§sSave current inventory
+item.bridge:load_inventory=§l§dLoad saved inventory

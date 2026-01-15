@@ -13,9 +13,9 @@ execute as @e[type=item, name="§lGo back to main kit"] at @p run function brick
 
 # --- SAVE/LOAD SYSTEM ---
 # 1. Detect "Save Kit" item -> Force nearest player to send the signal -> Kill item
-execute as @e[type=item,name="bread"] at @s run execute as @p run scriptevent invplus:save_trigger
-execute as @e[type=item,name="bread"] run kill @s
+execute as @e[type=item,name="§l§sSave current inventory"] at @s run execute as @p run scriptevent invplus:save_trigger
+execute as @e[type=item,name="§l§sSave current inventory"] run kill @s
 
 # 2. Detect "Load Kit" item -> Force nearest player to send the signal -> Kill item
-execute as @e[type=item,name="beetroot"] at @s run execute as @p run scriptevent invplus:load_trigger
-execute as @e[type=item,name="beetroot"] run kill @s
+execute as @e[type=item,name="§l§dLoad saved inventory"] at @s run execute as @p run scriptevent invplus:load_trigger
+execute as @e[type=item,name="§l§dLoad saved inventory"] run kill @s

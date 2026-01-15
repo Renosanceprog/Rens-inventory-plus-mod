@@ -37,6 +37,12 @@
 		},
 		"bridge_back_page": {
 			"textures": "textures/items/back_page"
+		},
+		"bridge_save_inventory": {
+			"textures": "textures/items/save_inventory"
+		},
+		"bridge_load_inventory": {
+			"textures": "textures/items/load_inventory"
 		}
 	}
 }

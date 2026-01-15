@@ -34,6 +34,5 @@ replaceitem entity @p[tag=usingsys] slot.hotbar 7 piston
 replaceitem entity @p[tag=usingsys] slot.hotbar 8 observer
 replaceitem entity @p[tag=usingsys] slot.inventory 25 bridge:next_page
 replaceitem entity @p[tag=usingsys] slot.inventory 26 bridge:menu_access
-execute at @p[tag=usingsys] run say gave Circuit Kit to @p
 tag @e remove usingsys
 kill @e[type=item, name="§9§lGive Circuit Redstone"]
